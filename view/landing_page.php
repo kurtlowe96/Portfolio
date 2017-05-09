@@ -27,5 +27,7 @@ require('header.php');
         <img id="scrollBox" src="img/down_arrow.png">
     </div>
     
-    <div id="skillContent" class="skillContent"></div> 
+    <div id="skillContent" class="skillContent">
+        <?php require('skill_content.php'); ?>
+    </div> 
 </div>
